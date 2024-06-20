@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    color: white;
+  }
+  
+
+  
+  .left {
+    left: 0;
+    background-color: #1f1f74;
+    height: 100%;
+    width: 25%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  .right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 75%;
+    position:absolute;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+    color: black;;
+ 
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 100%;
+    border-radius: 25%;
+
+   
+  }
+
+  td{
+    height: 50px;
+    width: 250px;
+    overflow: hidden;
+    font-size: small;
+  }
+  .Education{
+ 
+    text-align:center;
+    font-style:italic;
+  }
+.link{
+    color: white;
+    
+}
+li{
+    margin-top: 10px;
+   
+    text-align: left;
+    font-size: 20px;
+}
+#information{
+
+    text-align: center;
+    
+}
+.intro{
+
+    height: 200px;
+    width:  300px;
+
+
+
+}
+#introtable{
+    border-style:solid;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+}
+#attribute{
+    font-size: 10px;
+    text-align: center;
+}
