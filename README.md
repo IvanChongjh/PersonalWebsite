@@ -1,2 +1,2 @@
 My Personal Website 
-https://ivanchongjh.com/projects.html
+https://ivanchongjh.com/index.html
