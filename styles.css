@@ -13,7 +13,7 @@ body {
     position:fixed;
     z-index: 1;
     top: 0;
-    overflow-x: hidden;
+    overflow-x:hidden;
     padding-top: 20px;
     
   }
@@ -27,8 +27,10 @@ body {
     z-index: 1;
     top: 0;
     padding-top: 20px;
-    color: black;;
- 
+    color: black;
+    overflow-x:scroll;
+    
+    
   }
   
   .centered {
@@ -84,10 +86,33 @@ li{
     border-style:solid;
     margin-left: 25%;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 20%; 
     margin-right: 10%;
+
 }
 #attribute{
     font-size: 10px;
     text-align: center;
+}
+#project{
+    margin-left: 10%;
+    margin-top:5%;
+    margin-right:5%;
+   
+  
+}
+.img{
+    height: 350px;
+    width: 550px;
+    margin-left: 150px;
+    margin-top: 50px;
+ 
+}
+.introproject{
+  
+    color: black;
+    text-align: left;
+    font-style: italic;
+    
+    
 }
