@@ -1,118 +1,205 @@
-body {
-    font-family: Arial;
-    color: white;
-  }
-  
-
-  
-  .left {
-    left: 0;
-    background-color: #1f1f74;
-    height: 100%;
-    width: 25%;
-    position:fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x:hidden;
-    padding-top: 20px;
-    
-  }
-  
-  .right {
-    right: 0;
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 75%;
-    position:absolute;
-    z-index: 1;
-    top: 0;
-    padding-top: 20px;
-    color: black;
-    overflow-x:scroll;
-    
-    
-  }
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .centered img {
-    width: 100%;
-    border-radius: 25%;
-
-   
-  }
-
-  td{
-    height: 50px;
-    width: 250px;
-    overflow: hidden;
-    font-size: small;
-  }
-  .Education{
- 
-    text-align:center;
-    font-style:italic;
-  }
-.link{
-    color: white;
-    
-}
-li{
-    margin-top: 10px;
-   
-    text-align: left;
-    font-size: 20px;
-}
-#information{
-
-    text-align: center;
-    
-}
+@media screen and (max-width:375px)
+{
+   .left{
+    width:0;
+    display:none;
+   } 
 .intro{
 
-    height: 200px;
-    width:  300px;
-
-
-
-}
-#introtable{
-    border-style:solid;
-    margin-left: 25%;
-    margin-top: 10%;
-    margin-bottom: 20%; 
-    margin-right: 10%;
-
-}
-#attribute{
-    font-size: 10px;
+    height: 100px;
+    width:  150px;
     text-align: center;
-}
-#project{
-    margin-left: 10%;
-    margin-top:5%;
-    margin-right:5%;
+    font-size: 10px;
    
-  
 }
-.img{
-    height: 350px;
-    width: 550px;
-    margin-left: 150px;
-    margin-top: 50px;
+.centered img {
+  width: 75%;
+  border-radius: 25%;
+
+
+}
+.right{
+  
  
 }
-.introproject{
-  
-    color: black;
-    text-align: left;
-    font-style: italic;
-    
-    
+
+
 }
+
+.imges{
+  height: 90px;
+  width: 90px;
+  
+}   
+  
+  body {
+      font-family: Arial;
+      color: white
+      
+    }
+    
+
+    
+    .left {
+      left: 0;
+      background-color: #1f1f74;
+      height: 100%;
+      width: 20%;
+      position:fixed;
+      z-index: 1; 
+      top: 0;
+      overflow-x:hidden;
+      padding-top: 20px;
+      
+    }
+    
+    .right {
+      right: 0;
+      background-color: rgb(255, 255, 255);
+      height: 100%;
+      width: 80%;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      padding-top: 20px;
+      color: black;
+      overflow-x:scroll;
+      
+      
+    }
+    #introduction{
+      margin:auto;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+    
+    .centered img {
+      width: 75%;
+      border-radius: 25%;
+
+    
+    }
+
+    td{
+      height:auto;
+      width:auto;
+      overflow: hidden;
+      font-size: small;
+    }
+    .selection{
+      /* margin:auto; */
+      /*  was not here */
+      
+      text-align: center;
+      font-style:italic;
+    }
+  .link{
+      color: white;
+      font-size: small;
+      font-style: italic;
+      
+  }
+ 
+  #information{
+
+      text-align: center;
+      
+  }
+  .intro{
+
+      height: 200px;
+      width:  300px;
+     
+
+
+  }
+  #introtable{
+
+      margin:auto;
+      margin-bottom: 20%; 
+      margin-top:20%
+    
+ 
+
+  }
+  #attribute{
+      font-size: 10px;
+      text-align: center;
+  }
+
+  #project{
+      margin-left: 10%;
+      margin-top:5%;
+      margin-right:5%;
+    
+    
+  }
+  .img{
+      height: 350px;
+      width: 550px;
+      margin-left: 150px;
+      margin-top: 50px;
+  
+  }
+  .introproject{
+    
+      color: black;
+      text-align: left;
+      font-style: italic;
+      
+      
+  }
+
+  #career{
+
+      text-align: center;
+      font-size: large;
+      margin-left: 15%;
+      margin-top: 10%;
+      margin-right: 15%;
+      overflow-x: hidden;
+
+
+  }
+  .thead{
+
+      background-color: blue;
+      color: white;
+
+  }
+
+  #GamingContent{
+
+    text-align: center;
+    font-size: large;
+      margin-left: 10%;
+      margin-top: 5%;
+      margin-right:5%;
+
+  }
+
+  .hgaming{
+
+      text-align: center;
+      margin-left: 5%;
+      font-size: large;
+
+  }
+  .videos{
+    margin-left: 200px;
+    margin-right: 5%;
+    
+  }
+  .intro:hover{
+    
+   
+    color:#2d2db4;
+
+  }
