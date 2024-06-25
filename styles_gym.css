@@ -1,14 +1,4 @@
-@media screen and (width: 450)
-{
-    #introtext{
-        padding-top: 30px;
-    
-    }
-    td{
-        font-size: 10px;
-        
-    }
-}
+
 body{
     /* background-color: rgb(131, 130, 135); */
     background-image: url(Images/backgroundtwo.png);
@@ -49,7 +39,7 @@ body{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 70px ;
+    font-size: 75px ;
     margin:0;
     width:100%
 }
@@ -88,8 +78,6 @@ body{
   
 }
 
-
-
 td{
     font-size: 25px;
     color: whitesmoke;
@@ -112,5 +100,31 @@ td{
 {
   height: 100%;
   width:100%
+
+}
+@media screen and (max-width:500px)
+{
+
+
+    #intro{
+
+      
+        background-position:center; 
+        background-repeat: no-repeat;
+        height:400px;
+        width:100%;
+        margin:auto;
+        
+    }
+    #introtext{
+   
+        color: white;
+        font-size: 35px ;
+     
+    }
+    td{
+        font-size: 10px;
+        
+    }
 
 }

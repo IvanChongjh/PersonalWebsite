@@ -1,32 +1,4 @@
-@media screen and (max-width:412px)
-{
-    
 
-.intro{
-
-    height: 100px;
-    width:  150px;
-    text-align: center;
-    font-size: 10px;
-    padding:10px;
-   
-}
-.centered img {
-  width: 75%;
-  border-radius: 25%;
-
-
-}
-  .videos{
-    
-    margin-top: 15%;
-    max-height: 150px;
-    max-width: 100%;
-    
-  }
-
-
-  } 
     .imges{
       height: 90px;
       width: 90px;
@@ -194,3 +166,32 @@
     
   }
  
+  @media screen and (max-width:412px)
+  {
+      
+  
+  .intro{
+  
+      height: 100px;
+      width:  150px;
+      text-align: center;
+      font-size: 10px;
+      padding:10px;
+     
+  }
+  .centered img {
+    width: 75%;
+    border-radius: 25%;
+  
+  
+  }
+    .videos{
+      
+      margin-top: 15%;
+      max-height: 150px;
+      max-width: 100%;
+      
+    }
+  
+  
+    } 
