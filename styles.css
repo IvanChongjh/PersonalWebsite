@@ -1,197 +1,239 @@
 
-    .imges{
-      height: 90px;
-      width: 90px;
-      
-    }   
+.imges{
+  height: 130px;
+  width: 130px;
   
-  body {
-      font-family: Arial;
-      color: white;
-    }
-    
-    .left {
-      left: 0;
-      background-color: #1f1f74;
-      height: 100%;
-      width: 25%;
-      position:fixed;
-      z-index: 1;
-      top: 0;
-      overflow-x:hidden;
-      padding-top: 20px;
-      
-    }
-    
-    .right {
-      right: 0;
-      background-color: white;
-      height: 100%;
-      width: 75%;
-      position:absolute;
-      z-index: 1;
-      top: 0;
-      padding-top: 20px;
-      color: black;
-      overflow-x:scroll;
-      
-      
-    }
-    
-    .centered {
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    .centered img {
-      width: 90%;
-      border-radius: 25%;
+}   
 
-    
-    }
+body {
+  font-family: Arial;
+  color: white;
+}
 
-    td{
-      height: 50px;
-      width: 250px;
-      overflow: hidden;
-      font-size: small;
-    }
-    .selection{
+
+
+.left {
+  left: 0;
+  background-color: #1f1f74;
+  height: 100%;
+  width: 25%;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x:hidden;
+  padding-top: 20px;
   
-      text-align: center;
-      font-style:italic;
-    }
-  .link{
-      color: white;
-      font-size: small;
-      font-style: italic;
-      
-  }
-  li{
-      margin-top: 10px;
-      text-align: left;
-      font-size: 20px;
-  }
-  #information{
+}
 
-      text-align: center;
-      
-  }
-  .intro{
+.right {
+  right: 0;
+  background-color: white;
+  height: 100%;
+  width: 75%;
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+  color: black;
+  overflow-x:scroll;
+  
+  
+}
 
-      height: 200px;
-      width:  300px;
-     
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 90%;
+  border-radius: 25%;
 
 
-  }
- .intro:hover{
-    
-    color:#2d2db4;
+}
 
-  }
-  #introtable{
+td{
+  height: 50px;
+  width: 250px;
+  overflow: hidden;
+  font-size: small;
+}
+.selection{
 
-      margin:auto;
-      margin-top:15%; 
-      margin-bottom:20%;
-    
+  text-align: center;
+  font-style:italic;
+}
+.link{
+  color: white;
+  font-size: small;
+  font-style: italic;
+  
+}
+li{
+  margin-top: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+#information{
+
+  text-align: center;
+  
+}
+.intro{
+
+  height: 250px;
+  width:  350px;
  
 
+
+}
+.intro:hover{
+
+color:#2d2db4;
+
+}
+#introtable{
+
+  margin:auto;
+  margin-top:15%; 
+  margin-bottom:20%;
+
+
+
+}
+.imgproject{
+  height:350px;
+  width: 550px;
+  margin:auto;
+  padding:50px;
+  /* height: 350px;*/
+  /*width: 550px;*/
+
+}
+#attribute{
+  margin-top:50%;
+  text-align: center;
+  font-size:10px;
   }
-  #attribute{
-      font-size: 10px;
-      text-align: center;
-      margin-bottom:5%;
-      }
-  #project{
-      margin-left: 10%;
-      margin-top:5%;
-      margin-right:5%;
+#project{
+  height:100%;
+  width:100%;
+ padding:70px;
+
+
+}
+.img{
+  height: 400px;
+  width: 600px;
+
+
+}
+.introproject{
+  height:500px;
+  width:300px;
+  color: black;
+  text-align:center;
+  font-style: italic;
+  padding:50px;
+  
+}
+
+#career{
     
-    
-  }
-  .img{
-      height: 350px;
-      width: 550px;
-      margin-left: 150px;
-      margin-top: 50px;
+  text-align: center;
+  font-size: large;
+  margin:auto;
+  margin-top: 15%;
+
+
+}
+.thead{
+
+  background-color: blue;
+  color: white;
+
+}
+
+#GamingContent{
+   
+  margin:auto;
+
+}
+
+.hgaming{
+  margin:auto;
+  text-align: center;
+  font-size: large;
+
+}
+.videos{
+width:560px; 
+height:315px;
+
+}
+#intromathforkid{
+
+text-align: center;
+}
+#tableMathsforkids{
+ width:100%;
+ height:auto;
+
+}
+.tdkids{
+ padding: 50px;
+ height: 250px;
+ width: 250px;
+ text-align: center;
+}
+@media screen and (max-width:412px)
+{
+
+.introprojects{
+
+font-size:20px;
+width:100%;
+}
+#project{
+width:100%;
+
+}
+
+.intro{
+
+height: 100px;
+width:  150px;
+text-align: center;
+font-size: 10px;
+padding:10px;
+
+}
+.centered img {
+width: 75%;
+border-radius: 25%;
+
+
+}
+.videos{
+
+margin-top: 15%;
+max-height: 150px;
+max-width: 100%;
+
+}
+#career{
   
-  }
-  .introproject{
-    
-      color: black;
-      text-align: left;
-      font-style: italic;
-      
-      
-  }
-
-  #career{
-
-      text-align: center;
-      font-size: large;
-      margin-left: 15%;
-      margin-top: 10%;
-      margin-right: 15%;
-      overflow-x: hidden;
-
-
-  }
-  .thead{
-
-      background-color: blue;
-      color: white;
-
-  }
-
-  #GamingContent{
-       
-      margin:auto;
-
-  }
-
-  .hgaming{
-      margin:auto;
-      text-align: center;
-      font-size: large;
-
-  }
-  .videos{
-   width:560px; 
-    height:315px;
-    
-  }
- 
-  @media screen and (max-width:412px)
-  {
-      
+  font-size:20px;
+}
+ .imges{
+  height: 60px;
+  width: 60px;
   
-  .intro{
-  
-      height: 100px;
-      width:  150px;
-      text-align: center;
-      font-size: 10px;
-      padding:10px;
-     
-  }
-  .centered img {
-    width: 75%;
-    border-radius: 25%;
-  
-  
-  }
-    .videos{
-      
-      margin-top: 15%;
-      max-height: 150px;
-      max-width: 100%;
-      
-    }
-  
-  
-    } 
+}   
+
+
+
+} 
