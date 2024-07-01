@@ -183,6 +183,7 @@ text-align: center;
  height:auto;
 
 } */
+
 /* .tdkids{
  padding: 50px;
  height: 250px;
@@ -237,7 +238,6 @@ border-radius: 25%;
 
 }
 .videos{
-
 margin-top: 15%;
 max-height: 150px;
 max-width: 100%;
@@ -259,9 +259,20 @@ max-width: 100%;
 
 
 }
-.kidsmathimg{
+
+.contents > div 
+{
+  display:block;
+  height: auto;
+  width: 100%;
+  margin-left: 5%;
+  margin-right:5%;
+  margin-top:5%
+}
+#kidsmathimg{
 
   height:150px;
-  width: 150px;
+  width: 300px;
 }
+
 } 
