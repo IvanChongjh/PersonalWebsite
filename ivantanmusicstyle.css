@@ -115,13 +115,47 @@ td{
   padding:2%;
 
 }
-/* .Socials{
 
-    background-color: white;
+
+
+.container{
+
+    text-align: justify;
+    color: black;
+    display:inline-block;
+  
+}
+.left {
+
+    float:left;
+    height: 500px;
+    width:50%;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+.right{
+    float:right;
+    height: 500px;
+    width:50%;
+    font-size: 20px;
+}
+.container > #profile {
 
     height:400px;
-    width:100%;
-} */
+    width:400px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top : 5%;
+}
+
+.instapost{
+ display: inline-flex;
+  float:left;
+}
+#instamedia{
+    float:left;
+}
 @media screen and (max-width:500px)
 {
 
