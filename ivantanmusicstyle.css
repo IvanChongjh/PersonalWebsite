@@ -1,0 +1,174 @@
+
+
+body{
+    /* background-color: rgb(131, 130, 135); */
+    background-image: url(ivantanmusic/images/smokeypurple.jpg);
+
+    /* background-color: darkmagenta; */
+    
+    /* background-color: orange; */
+    color: black;
+}
+
+#Navigation{
+
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+body{
+    padding:0;
+    margin:0;
+}
+
+#intro{
+    
+    /* background-image: url(ivantanmusic/images/banner.jpg);
+    background-position:center;
+    background-repeat: no-repeat; */
+    height:500px;
+    width:100%;
+    margin:auto;
+   
+
+    
+}
+#banner{
+
+    height: 500px;
+    width: 100%;
+}
+
+#introtext{
+    padding-top: 80px;
+    text-align: Center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 70px ;
+    margin:0;
+    width:100%
+}
+
+.LinkNav{
+    
+    padding-right: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.logo{
+    padding-right: 20px;
+}
+
+.logotxt{
+
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.booknow-btn{
+    text-align: right;
+    padding-right: 5%;
+   
+}
+
+.Register{
+    background-color: rgb(84, 84, 82);
+    border-radius: 30%;
+    padding: 10px 25px ;
+}
+#introduction{
+    padding-top: 5%;
+    
+  
+}
+
+
+
+td{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    height:auto;
+    width:25%
+    
+}
+.introtxt{
+    color: whitesmoke;
+}
+
+.CompanyLogo{
+    margin-top: 20px ;
+     margin-left: 20px;
+     width:  20px;
+     height:  20px; 
+}
+
+#ivanintro
+{
+  height:100%;
+  width:100%;
+  padding:2%;
+
+}
+/* .Socials{
+
+    background-color: white;
+
+    height:400px;
+    width:100%;
+} */
+@media screen and (max-width:500px)
+{
+
+
+   #intro{
+
+      
+        background-position:center; 
+        background-repeat: no-repeat;
+        height:150px;
+        width:100%;
+        margin:auto;
+        
+    }
+    #banner{
+        height:150px;
+        width: 100%;
+    }
+    #introtext{
+   
+        color: white;
+        font-size: 35px ;
+     
+    }
+    td{
+        font-size: 10px;
+        
+    }
+    .LinkNav{
+        
+        margin:auto;
+        font-size: 11px;
+     
+    }
+    .vid{
+
+        height: 100px;
+        width: 80%;
+    }
+    #Navigation{
+
+        
+        margin-bottom: 5%;
+    
+    }
+    
+
+
+}
+
