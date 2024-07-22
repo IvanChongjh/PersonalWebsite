@@ -1,4 +1,4 @@
-
+ 
 
 body{
     /* background-color: rgb(131, 130, 135); */
@@ -116,8 +116,6 @@ td{
 
 }
 
-
-
 .container{
 
     text-align: justify;
@@ -131,7 +129,8 @@ td{
     height: 500px;
     width:50%;
     font-size: 15px;
-    font-style: italic;
+    font-style: italic; 
+    
     
 }
 .right{
@@ -139,6 +138,7 @@ td{
     height: 500px;
     width:50%;
     font-size: 20px;
+    
 }
 .container > #profile {
 
@@ -201,8 +201,28 @@ td{
         margin-bottom: 5%;
     
     }
-    
+    .container > #profile {
 
+        height:100px;
+        width:100px;
+   
+    }
+    .instapost{
+        display: block;
+       
+       }
+    
+       .right{
+   
+        font-size: 10px;
+        height:200px;
+    }
+    .left {
+
+        float:left;
+        height: 200px;
+ 
+    }
 
 }
 
